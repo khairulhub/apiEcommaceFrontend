@@ -5,6 +5,7 @@ import {
     Routes
   } from "react-router-dom";
 
+import AboutPage from '../pages/AboutPage';
 import CartPage from '../pages/CartPage';
 import ContactPage from '../pages/ContactPage';
 import FavouritePage from '../pages/FavouritePage';
@@ -25,6 +26,7 @@ const AppRoute = () => {
                 <Route exact path="/contact" element={<ContactPage></ContactPage>} />
 
 
+                <Route exact path="/about" element={<AboutPage></AboutPage>} />
                 <Route exact path="/purchase" element={<PurchasePage></PurchasePage>} />
                 <Route exact path="/privacy" element={<PrivacyPage></PrivacyPage>} />
                 <Route exact path="/refund" element={<RefundPage></RefundPage>} />
